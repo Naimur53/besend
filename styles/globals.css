@@ -1,26 +1,49 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #F5F5F5;
+  font-family: 'Raleway', sans-serif;
+  color: #242B31
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.custom_radio:checked~.radio {
+  color: white;
+  background-color: #242B31;
+  width: 100%;
+}
+/* select option */
+.select_custom_input_wrap >div{
+  background-color: white;
+  height:70px ; 
+  border: none;
+  border-radius: 16px;
+}
+.select_custom_input_wrap >div >button> span{
+left: 16px;
+}
+.select_custom_input_wrap >div >button> div{
+right: 16px;
+}
+.select_custom_input_wrap >div>label{
+ top: 12px;
+ left: 16px;
+}
+.select_custom_input_wrap >div>label::after{
+  display: none;
+  border: none;
+}
+.select_custom_input{
+  border: none;
 }
 
-* {
-  box-sizing: border-box;
-}
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@layer utilities {
+  .radio_custom_input {
+    @apply radio text-center self-center py-2 px-4 rounded-lg cursor-pointer hover:opacity-75 transition-all w-full text-ls font-medium p-[8px];
   }
-  body {
-    color: white;
-    background: black;
-  }
+
+  
+
 }
