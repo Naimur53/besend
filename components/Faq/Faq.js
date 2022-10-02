@@ -9,7 +9,7 @@ const Faq = () => {
         setOpen(open === value ? 0 : value);
     };
     useEffect(() => {
-        setOpen(2)
+        setOpen(1)
     }, [])
     return (
         <div id='FAQ' className="md:pt-[220px] pt-[200px]">
@@ -29,9 +29,7 @@ const Faq = () => {
                 </div>
                 <div className='md:flex justify-center mt-[42px] items-center'>
                     <p className='text-sm text-[#E7EAEE]  mr-[11px]'>Если у вас остались вопросы, </p>
-                    <span className='block text-sm md:inline-block text-[#36CFA1]'>задайте свой <Image width={12} height={12} alt='arrow' src="/images/greenarrow.png" /> </span>
-
-
+                    <a href='#' className='block text-sm md:inline-block text-[#36CFA1]'>задайте свой <Image width={12} height={12} alt='arrow' src="/images/greenarrow.png" /> </a>
                 </div>
 
             </div>

@@ -9,11 +9,11 @@ const HomeInputs = () => {
             <form >
                 <div class="bg-[#E7EAEE]  rounded-[12px] grid  grid-cols-2 ">
                     <div class="inline-flex rounded-[12px]">
-                        <input className="custom_radio w-full" type="radio" name="room_type" id="roomPrivate" checked hidden />
+                        <input className="custom_radio w-full" type="radio" name="a" id="roomPrivate" defaultChecked hidden />
                         <label for="roomPrivate" class="radio_custom_input">Отправить</label>
                     </div>
                     <div class="inline-flex rounded-[12px]">
-                        <input className="custom_radio w-full" type="radio" name="room_type" id="roomPublic" hidden />
+                        <input className="custom_radio w-full" type="radio" name="a" id="roomPublic" hidden />
                         <label for="roomPublic" class="radio_custom_input">Получить</label>
                     </div>
                 </div>

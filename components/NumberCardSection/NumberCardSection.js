@@ -61,8 +61,8 @@ const NumberCardSection = () => {
                 <h2 className='text-base'>Как это работает</h2>
                 <form className='flex justify-center mt-[20px]'>
                     <div class="bg-[#E7EAEE]  rounded-[12px] grid  grid-cols-2 ">
-                        <div class="inline-flex   rounded-[12px]">
-                            <input className="custom_radio w-full" type="radio" name="room_type2" id="secondRadio" checked hidden />
+                        <div class="inline-flex  rounded-[12px]">
+                            <input className="custom_radio w-full" type="radio" name="room_type2" id="secondRadio" defaultChecked hidden />
                             <label for="secondRadio" class="radio_custom_input">Отправить</label>
                         </div>
                         <div class="inline-flex  rounded-[12px]">

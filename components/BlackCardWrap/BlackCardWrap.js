@@ -9,9 +9,9 @@ import { Autoplay, } from "swiper";
 const BlackCardWrap = () => {
     const Card1 = () => {
         return (
-            <div className='p-[28px] rounded-[32px] bg-main-black text-white h-full bg-no-repeat bg-right-bottom bg-contain' style={{ backgroundImage: 'url(/images/pic1.png)' }}>
+            <div className='p-[28px] rounded-[32px] bg-main-black text-white h-full bg-no-repeat bg-right-bottom bg-[length:250px_250px] md:bg-contain' style={{ backgroundImage: 'url(/images/pic1.png)' }}>
                 <div>
-                    <h2 className='text-base mb-[12px]'>Это быстро и просто</h2>
+                    <h2 className='text-normal xl:text-base mb-[12px]'>Это быстро и просто</h2>
                     <p className='text-ls text-[#E7EAEE] mb-[8px]'>
                         Не нужно никуда ехать — даже чтобы получить деньги. Понадобится только интернет.
                     </p>
@@ -24,13 +24,13 @@ const BlackCardWrap = () => {
     }
     const Card2 = () => {
         return (
-            <div className='p-[28px] h-full rounded-[32px] bg-main-black text-white bg-no-repeat bg-right-bottom bg-contain' style={{ backgroundImage: 'url(/images/pic2.png)' }}>
+            <div className='p-[28px] h-full rounded-[32px] bg-main-black text-white bg-no-repeat  bg-right-bottom bg-contain' style={{ backgroundImage: 'url(/images/pic2.png)' }}>
                 <div>
-                    <h2 className='text-base mb-[12px]'>А ещё удобно</h2>
-                    <p className='text-ls text-[#E7EAEE] mb-[8px]'>
+                    <h2 className='text-normal xl:text-base mb-[12px]'>А ещё удобно</h2>
+                    <p className='text-ls text-[#E7EAEE] mb-[8px] w-10/12	'>
                         Мы предлагаем разные методы отправки и получения —от стандартных карт до электронных кошельков.
                     </p>
-                    <p className='text-ls text-[#E7EAEE] mb-[8px]'>
+                    <p className='text-ls text-[#E7EAEE] mb-[8px] w-10/12	'>
                         Вне зависимости от метода, перевод будет произведенпо рыночному курсу.
                     </p>
                 </div>
@@ -41,7 +41,7 @@ const BlackCardWrap = () => {
         return (
             <div className='p-[28px] h-full rounded-[32px] bg-main-black text-white bg-no-repeat bg-right-bottom bg-contain  md:bg-[length:200px_200px] xl:bg-[length:300px_300px]' style={{ backgroundImage: 'url(/images/pic3.png)' }}>
                 <div>
-                    <h2 className='text-base mb-[12px]'>Можно перевестис рублевой карты</h2>
+                    <h2 className='text-normal xl:text-base mb-[12px] md:w-10/12'>Можно перевестис рублевой карты</h2>
                     <p className='text-ls text-[#E7EAEE] mb-[8px]'>
                         Да, даже с карт Visa и Mastercard <br /> российских банков
                     </p>
@@ -51,11 +51,11 @@ const BlackCardWrap = () => {
     }
     return (
         <div className='pt-[120px] md:pt-[160px]'>
-            <div className='hidden md:grid grid-cols-2  gap-[24px]'>
-                <div className='h-[758px]'>
+            <div className='hidden md:grid grid-cols-12  gap-[24px]'>
+                <div className='h-[758px] col-span-5'>
                     <Card1></Card1>
                 </div>
-                <div className='grid grid-rows-2 gap-[24px]'>
+                <div className='grid grid-rows-2 col-span-7 gap-[24px]'>
                     <Card2></Card2>
                     <Card3></Card3>
 
