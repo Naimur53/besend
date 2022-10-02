@@ -21,7 +21,8 @@ module.exports = withMT({
         'xl': ['48px', { lineHeight: '58px', }],
       },
       fontFamily: {
-        'Roboto': ['"Roboto"', 'sans-serif']
+        'Roboto': ['"Roboto"', 'sans-serif'],
+        'Raleway': ['"Raleway"', 'sans-serif']
       },
     },
     container: {

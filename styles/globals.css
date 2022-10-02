@@ -7,6 +7,10 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #242B31
 }
+input{
+  font-family: 'Raleway', sans-serif;
+
+}
 
 .custom_radio:checked~.radio {
   color: white;
@@ -19,31 +23,114 @@ body {
   height:70px ; 
   border: none;
   border-radius: 16px;
-}
-.select_custom_input_wrap >div >button> span{
-left: 16px;
-}
-.select_custom_input_wrap >div >button> div{
-right: 16px;
-}
-.select_custom_input_wrap >div>label{
- top: 12px;
- left: 16px;
-}
+} 
+.select_custom_input_wrap_without_label >div{
+  background-color: white;
+  padding: 18px 16px;
+  height: 56px;
+  border: none;
+  border-radius: 16px;
+} 
+.select_custom_input_wrap_without_label_transparent >div{
+  background-color: transparent;
+  padding: 18px 16px;
+  height: 56px;
+  border: none;
+  border-radius: 16px;
+} 
+
+.select_custom_input_wrap >div button span{
+  padding-left: 16px;
+  padding-top:25px; 
+} 
+
+.select_custom_input_wrap_without_label >div button span{
+  padding-left: 16px; 
+  padding-top: 0px;
+} 
+.select_custom_input_wrap_without_label_transparent >div button span{
+  padding-left: 9px; 
+  padding-top: 0px;
+  color:white;
+  font-size: 16px;
+} 
+ .select_custom_input_wrap_without_label_dark >div button span{
+  padding-left: 9px; 
+  padding-top: 0px;
+  color:black;
+  font-size: 16px;
+} 
+.select_custom_input_wrap_without_label_transparent >div {
+min-width: 100px;
+height: 40px;
+
+} 
+.select_custom_input_wrap >div button > div{ 
+  right:16px
+
+} 
 .select_custom_input_wrap >div>label::after{
   display: none;
   border: none;
+  top: 0px;
+}
+.select_custom_input_wrap_without_label_transparent >div button > div{
+  right: 30px!important;
+  color: white;
+}
+.select_custom_input_wrap_without_label_dark >div button > div{
+  right: 30px!important;
+  color: black;
 }
 .select_custom_input{
   border: none;
 }
+/* input wrap */
+.input_wrap div{
+  height: 100%;
+  border: none; 
+}
+.input_wrap div input{
+  border: none;
+  font-size: 20px;
+  height: 100%;
+  padding-top: 25px;
+  padding-left: 16px;
+}
+.input_wrap div input:focus ~label  {
+top: 12px;
+  left: 16px;
+} 
+.input_wrap div.relative > input ~label{
+  /* border: 0;
+  outline: none;
+  top: 12px; 
+  line-height: 5.2; 
+  left: 16px; */
+  left: 16px; 
+  font-size: 12px; 
+}
+.input_wrap div label::after{
+  display: none;
+  outline: none;
+  border: none;
+  top: 0px;
+}
+.gradient_letter{
+  background:linear-gradient(180deg, #F3F4F5 17.69%, rgba(252, 252, 252, 0) 77.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  
+}
+.accordion-wrap > .overflow-hidden{
+  max-height: 40px; 
 
-
+}
 @layer utilities {
   .radio_custom_input {
-    @apply radio text-center self-center py-2 px-4 rounded-lg cursor-pointer hover:opacity-75 transition-all w-full text-ls font-medium p-[8px];
-  }
-
-  
+    @apply radio text-center self-center py-[12px] px-[70px] rounded-[12px] cursor-pointer hover:opacity-75 transition-all w-full text-ls font-medium  h-[44px] flex justify-center items-center
+  } 
 
 }
