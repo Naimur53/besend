@@ -39,7 +39,7 @@ const Topbar = () => {
     }, []);
     return (
         <div>
-            <Navbar shadow={false} blurred={false} fullWidth={true} className="w-full fixed top-0 z-50 py-2 lg:px-8 lg:py-4  bg-[#F3F4F5] border-b border-[#E7EAEE]">
+            <Navbar shadow={false} blurred={false} fullWidth={true} className="w-full fixed top-0 z-50 py-[17px] lg:px-8 lg:py-4  bg-[#F3F4F5] border-b border-[#E7EAEE]">
                 <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
                     <div>
                         <Image className='min-w-[116px]' width={116} height={32} alt='logo' layout='raw' src='/images/logo.png'></Image>

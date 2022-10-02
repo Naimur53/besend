@@ -9,7 +9,7 @@ import { Autoplay, } from "swiper";
 const BlackCardWrap = () => {
     const Card1 = () => {
         return (
-            <div className='p-[28px] rounded-[32px] bg-main-black text-white h-full bg-no-repeat bg-right-bottom bg-[length:250px_250px] md:bg-contain' style={{ backgroundImage: 'url(/images/pic1.png)' }}>
+            <div className='p-[28px] rounded-[32px] bg-main-black text-white h-full bg-no-repeat bg-right-bottom bg-[length:200px_200px] md:bg-contain' style={{ backgroundImage: 'url(/images/pic1.png)' }}>
                 <div>
                     <h2 className='text-normal xl:text-base mb-[12px]'>Это быстро и просто</h2>
                     <p className='text-ls text-[#E7EAEE] mb-[8px]'>
@@ -73,9 +73,9 @@ const BlackCardWrap = () => {
                     }}
                     modules={[Autoplay,]}
                 >
-                    <SwiperSlide style={{ height: '600px' }}><Card1></Card1></SwiperSlide>
-                    <SwiperSlide style={{ height: '600px' }}><Card2></Card2></SwiperSlide>
-                    <SwiperSlide style={{ height: '600px' }}><Card3></Card3></SwiperSlide>
+                    <SwiperSlide style={{ height: '460px' }}><Card1></Card1></SwiperSlide>
+                    <SwiperSlide style={{ height: '460px' }}><Card2></Card2></SwiperSlide>
+                    <SwiperSlide style={{ height: '460px' }}><Card3></Card3></SwiperSlide>
                 </Swiper>
             </div>
         </div>

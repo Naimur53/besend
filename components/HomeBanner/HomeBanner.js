@@ -10,7 +10,7 @@ const HomeBanner = () => {
                             Переводы заграницу <br /> без препятствий
                         </h1>
                         <p className="text-ls md:text-sm font-normal ">
-                            Совершайте переводы в 123 страны и получайте деньги <br /> в  течение всего 2 часов с момента отправки
+                            Совершайте переводы в 123 страны и получайте деньги <br className="md:block hidden" /> в  течение всего 2 часов с момента отправки
                         </p>
                         <p className="text-sm font-bold font-Roboto hidden md:block mt-[60px] mb-2">
                             Excellent 4.8
