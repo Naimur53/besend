@@ -9,7 +9,7 @@ import { Autoplay, } from "swiper";
 const BlackCardWrap = () => {
     const Card1 = () => {
         return (
-            <div className='p-[28px] rounded-[32px] bg-main-black text-white h-full bg-no-repeat bg-right-bottom bg-[length:200px_200px] md:bg-contain' style={{ backgroundImage: 'url(/images/pic1.png)' }}>
+            <div className='p-[28px] rounded-[32px] bg-main-black text-white h-full bg-no-repeat bg-right-bottom bg-[length:200px_200px] md:bg-[length:250px_250px] lg:bg-contain' style={{ backgroundImage: 'url(/images/pic1.png)' }}>
                 <div>
                     <h2 className='text-normal xl:text-base mb-[12px]'>Это быстро и просто</h2>
                     <p className='text-ls text-[#E7EAEE] mb-[8px]'>
@@ -24,7 +24,7 @@ const BlackCardWrap = () => {
     }
     const Card2 = () => {
         return (
-            <div className='p-[28px] h-full rounded-[32px] bg-main-black text-white bg-no-repeat  bg-right-bottom bg-contain' style={{ backgroundImage: 'url(/images/pic2.png)' }}>
+            <div className='p-[28px] h-full rounded-[32px] bg-main-black text-white bg-no-repeat  bg-right-bottom bg-contain md:bg-[length:200px_180px] xl:bg-contain' style={{ backgroundImage: 'url(/images/pic2.png)' }}>
                 <div>
                     <h2 className='text-normal xl:text-base mb-[12px]'>А ещё удобно</h2>
                     <p className='text-ls text-[#E7EAEE] mb-[8px] w-10/12	'>
@@ -52,7 +52,7 @@ const BlackCardWrap = () => {
     return (
         <div className='pt-[120px] md:pt-[160px]'>
             <div className='hidden md:grid grid-cols-12  gap-[24px]'>
-                <div className='h-[758px] col-span-5'>
+                <div className='xl:h-[758px] lg:h-[650px] md:h-[600px] col-span-5'>
                     <Card1></Card1>
                 </div>
                 <div className='grid grid-rows-2 col-span-7 gap-[24px]'>
