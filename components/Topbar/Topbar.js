@@ -96,7 +96,7 @@ const Topbar = () => {
                         {navList}
                         <div className='flex'>
                             <SelectLan dark={true}></SelectLan>
-                            <button className='py-[10] px-[20px] bg-[#E7EAEE] rounded-[10px] text-medium text-ls'>Войти</button>
+                            <button className='py-[10] ml-[60px] px-[20px] bg-[#E7EAEE] rounded-[10px] text-medium text-ls'>Войти</button>
                         </div>
                     </div>
 

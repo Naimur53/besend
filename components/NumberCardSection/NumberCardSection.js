@@ -15,7 +15,7 @@ const NumberCardSection = () => {
         },
         {
             heading: `Введите сумму и страну получения`,
-            content: `Сразу посчитаем сумму с учётом комиссии и курса. Никаких неожиданностей.           `
+            content: `Сразу посчитаем сумму с учётом комиссии и курса. Никаких неожиданностей.`
 
         },
         {
@@ -41,15 +41,15 @@ const NumberCardSection = () => {
     ]
     const Card = ({ heading, content, i }) => {
 
-        return <div className='px-[28px] h-[264px] rounded-[32px] bg-white pb-[28px] relative'>
+        return <div className='md:px-[28px] p-[24px] h-[188px] md:h-[264px] rounded-[32px] bg-white md:pb-[28px] relative'>
             <div className='flex items-end relative z-10 h-full'>
                 <div>
-                    <span className='block text-[15px] leading-[18px] mb-[8px] text-[#36CFA1]'>Шаг {i + 1}</span>
-                    <h1 className='font-semibold text-sm w-full md:w-11/12'>{heading}</h1>
-                    <p className='mt-[8px]'>{content}</p>
+                    <span className='block text-[12px] md:text-[15px] leading-[18px] mb-[8px] text-[#36CFA1]'>Шаг {i + 1}</span>
+                    <h1 className='font-semibold text-sm  w-10/12'>{heading}</h1>
+                    <p className='mt-[8px] text-[14px] md:text-ls'>{content}</p>
                 </div>
             </div>
-            <div className='text-[300px] top-0 right-0 z-0 absolute gradient_letter font-bold leading-[.9] font-Roboto'>
+            <div className='text-[200px] md:text-[300px] top-0 right-[21px] md:right-0 z-0 absolute gradient_letter font-bold leading-[.9] font-Roboto'>
                 {i + 1}
             </div>
 
