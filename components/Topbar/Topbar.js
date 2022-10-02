@@ -19,7 +19,7 @@ const Topbar = () => {
         { name: 'Отзывы', link: '#Отзывы' },
     ]
     const navList = (
-        <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+        <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-[24px]">
             {
                 data.map(single => <li className='list-item hover:text-[#8BD7C0] transition-all' key={single.link}>
                     <a className='text-ls  ' href={single.link}>
@@ -39,7 +39,7 @@ const Topbar = () => {
     }, []);
     return (
         <div>
-            <Navbar shadow={false} fullWidth={true} className="w-full fixed top-0 z-50 py-2 lg:px-8 lg:py-4">
+            <Navbar shadow={false} blurred={false} fullWidth={true} className="w-full fixed top-0 z-50 py-2 lg:px-8 lg:py-4  bg-[#F3F4F5] border-b border-[#E7EAEE]">
                 <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
                     <div>
                         <Image className='min-w-[116px]' width={116} height={32} alt='logo' layout='raw' src='/images/logo.png'></Image>
