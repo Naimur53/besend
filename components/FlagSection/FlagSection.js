@@ -43,7 +43,7 @@ const FlagSection = () => {
                 <div className='grid grid-cols-2 lg:grid-cols-4 '>
                     <div>
                         {
-                            data.slice(0, 8).map((single, i) => <div className='mb-[26px]' key={i}>
+                            data.slice(0, 8).map((single, i) => <div className='mb-[20px] flex items-center' key={i}>
                                 <div className='inline-block mr-[8px]'>
                                     <Image className='rounded-[3px]' src={`/images/icons/c-${(i + 1)}.png`} width={20} height={16} alt='flag'></Image>
                                 </div>
@@ -53,7 +53,7 @@ const FlagSection = () => {
                     </div>
                     <div>
                         {
-                            data.slice(8, 16).map((single, i) => <div className='mb-[26px]' key={i}>
+                            data.slice(8, 16).map((single, i) => <div className='mb-[20px] flex items-center' key={i}>
                                 <div className='inline-block mr-[8px]'>
                                     <Image className='rounded-[3px]' src={`/images/icons/c-${(i + 1) + 8}.png`} width={20} height={16} alt='flag'></Image>
                                 </div>
@@ -63,7 +63,7 @@ const FlagSection = () => {
                     </div>
                     <div>
                         {
-                            data.slice(16, 24).map((single, i) => <div className='mb-[26px]' key={i}>
+                            data.slice(16, 24).map((single, i) => <div className='mb-[20px] flex items-center' key={i}>
                                 <div className='inline-block mr-[8px]'>
                                     <Image className='rounded-[3px]' src={`/images/icons/c-${(i + 17)}.png`} width={20} height={16} alt='flag'></Image>
                                 </div>
@@ -73,7 +73,7 @@ const FlagSection = () => {
                     </div>
                     <div>
                         {
-                            data.slice(24, 32).map((single, i) => <div className='mb-[26px]' key={i}>
+                            data.slice(24, 32).map((single, i) => <div className='mb-[20px] flex items-center' key={i}>
                                 <div className='inline-block mr-[8px]'>
                                     <Image className='rounded-[3px]' src={`/images/icons/c-${(i + 25)}.png`} width={20} height={16} alt='flag'></Image>
                                 </div>

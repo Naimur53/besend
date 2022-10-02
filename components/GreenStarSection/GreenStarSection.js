@@ -11,7 +11,7 @@ const GreenStarSection = () => {
     const Card1 = () => {
         return <div className='bg-white h-[220px] flex flex-col items-center justify-center p-[20px]'>
             <div >
-                <h2 className='mb-[14px] text-black text-[18px] leading-[26px] font-medium'>Excellent</h2>
+                <h2 className='mb-[8px] text-black text-[18px] leading-[26px] font-medium'>Excellent</h2>
             </div>
             <div className="flex gap-[8px]">
                 {
@@ -41,10 +41,10 @@ const GreenStarSection = () => {
                         }
                     </div>
                 </div>
-                <p>2 days ago</p>
+                <p className='text-[12px] leading-[26px] font-light text-black'>2 days ago</p>
             </div>
             <div >
-                <h2 className='mb-[8px] text-black text-[18px] leading-[26px] font-medium mt-[11px]'>Best on the market</h2>
+                <h2 className='mb-[8px] text-black text-[18px] leading-[26px] font-medium mt-[8px]'>Best on the market</h2>
                 <p className='text-[14px] mb-[8px] leading-[22px] text-black font-light'>I love this product because the support is great. Please ...</p>
             </div>
             <hr className='bg-[#D9D9D9] w-[60px] h-[1px] mb-[8px]' />
@@ -59,12 +59,6 @@ const GreenStarSection = () => {
                 <h1 className='text-normal font-medium md:text-base  w-1/2 '>Нам доверяют 123 человека</h1>
 
             </div>
-            {/* <div className="grid grid-cols-4 gap-3 font-Roboto">
-                <Card1></Card1>
-                <Card2></Card2>
-                <Card2></Card2>
-                <Card2></Card2>
-            </div> */}
             <Swiper
                 slidesPerView={4.3}
                 spaceBetween={20}

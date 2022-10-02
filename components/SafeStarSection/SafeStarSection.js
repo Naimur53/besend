@@ -47,10 +47,10 @@ const SafeStarSection = () => {
 
     ]
     const Card = ({ heading, content, i }) => {
-        return <div className='bg-white  rounded-[16px]   py-[0px] px-[20px] md:p-[20px]'>
-            <div className='flex items-center gap-[11px] md:gap-[24px]'>
-                <div>
-                    <Image layout='raw' className='min-w-[21px]  max-w-[21px] md:min-w-[58px] h-auto' width={58} height={74} src='/images/safeCard.png' alt='safe star'></Image>
+        return <div className='bg-white  rounded-[16px]   py-[0px]  md:pl-[40px]   pl-[23px] px-[20px] md:p-[20px]'>
+            <div className='flex md:items-center gap-[11px] md:gap-[24px]'>
+                <div className='mt-[20px] md:mt-0'>
+                    <Image layout='raw' className='min-w-[21px] min-h-[26px] md:min-h-auto  max-w-[21px] md:min-w-[58px] h-auto' width={58} height={74} src='/images/safeCard.png' alt='safe star'></Image>
                 </div>
                 <div>
                     <div className='lg:block hidden'>
@@ -59,7 +59,7 @@ const SafeStarSection = () => {
                     </div>
                     <div className='lg:hidden block'>
                         <Accordion open={open === i} icon={<Icon id={i} open={open} />}>
-                            <AccordionHeader className='border-0' onClick={() => handleOpen(i)}>
+                            <AccordionHeader className='border-0 pt-[16px] pb-[8px]' onClick={() => handleOpen(i)}>
                                 <h1 className='text-left text-ls md:text-sm font-semibold mb-[8px]'>{heading}</h1>
                             </AccordionHeader>
                             <AccordionBody className='p-0'>
@@ -76,7 +76,7 @@ const SafeStarSection = () => {
     }
     return (
         <div id='Безопасность' className=" pt-[120px] ">
-            <div className='bg-main-black rounded-[32px] px-[28px] py-[40px]'>
+            <div className='bg-main-black rounded-[32px] px-[28px] pb-[28px] pt-[40px]'>
                 {/* heading area */}
                 <div className='text-center mb-[36px]'>
                     <h3 className='text-[15px] text-[#B8C0CC] leading-[18px]'>Безопасность</h3>

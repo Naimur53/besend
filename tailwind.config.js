@@ -14,7 +14,7 @@ module.exports = withMT({
       fontSize: {
         'xs': ['12px', { lineHeight: '14px', }],
         'ls': ['16px', { lineHeight: '22px', }],
-        'sm': ['20px', { lineHeight: '28px', }],
+        'sm': ['20px', { lineHeight: '24px', }],
         'normal': ['24px', { lineHeight: '28px', }],
         'base': ['36px', { lineHeight: '42px', }],
         'lg': ['40px', { lineHeight: '48px', }],

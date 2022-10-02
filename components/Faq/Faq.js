@@ -13,7 +13,7 @@ const Faq = () => {
     }, [])
     return (
         <div id='FAQ' className="md:pt-[220px] pt-[200px]">
-            <div className='bg-main-black rounded-[32px] pt-[40px] px-[28px] pb-[28px]'>
+            <div className='bg-main-black rounded-[32px] pt-[40px] px-[28px] pb-[28px] md:pb-[34px]'>
                 <div className='text-center mb-[36px]'>
                     <h2 className='text mb-[12px] text-[12px] md:text-[15px] leading-[18px] text-[#B8C0CC]'>FAQ</h2>
                     <h1 className='text-normal md:text-base text-white '>Часто-задаваемые вопросы</h1>

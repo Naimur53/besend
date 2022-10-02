@@ -25,11 +25,11 @@ const FaqSingleAccordion = ({ open, handleOpen, heading, num, content }) => {
     }
     return (
         <div>
-            <Accordion className="border-b accordion-wrap py-[20px] border-[#64748B]" open={open === num} icon={<Icon id={num} open={open} />}>
+            <Accordion className="border-b accordion-wrap py-[24px] border-[#64748B]" open={open === num} icon={<Icon id={num} open={open} />}>
                 <AccordionHeader className="text-semibold text-white text-sm font-Raleway p-0 hover:text-gray-400 border-0" onClick={() => handleOpen(num)}>
                     {heading}
                 </AccordionHeader>
-                <AccordionBody className='text-[#E7EAEE] pb-0 text-sm font-normal'>
+                <AccordionBody className='text-[#E7EAEE] pt-[4px] pb-0 text-sm font-normal'>
                     {content}
                 </AccordionBody>
             </Accordion>
