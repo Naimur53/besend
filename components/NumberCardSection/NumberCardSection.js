@@ -45,7 +45,7 @@ const NumberCardSection = () => {
             <div className='flex items-end relative z-10 h-full'>
                 <div>
                     <span className='block text-[15px] leading-[18px] mb-[8px] text-[#36CFA1]'>Шаг {i + 1}</span>
-                    <h1 className='font-semibold text-sm w-full md:w-2/3'>{heading}</h1>
+                    <h1 className='font-semibold text-sm w-full md:w-11/12'>{heading}</h1>
                     <p className='mt-[8px]'>{content}</p>
                 </div>
             </div>
