@@ -15,7 +15,7 @@ const GreenStarSection = () => {
             </div>
             <div className="flex gap-[8px]">
                 {
-                    [1, 2, 3, 4, 5].map(single => <Image key={single} src='/images/fill_star.png' width={40} height={40} alt='star'></Image>)
+                    [1, 2, 3, 4, 5].map(single => <Image quality={100} key={single} src='/images/fill_star.png' width={40} height={40} alt='star'></Image>)
                 }
             </div>
             <div className='my-[8px]'>
@@ -25,7 +25,7 @@ const GreenStarSection = () => {
 
             </div>
             <div className='flex items-center gap-[4px]'>
-                <Image src='/images/largeStar.png' width={25} height={24} alt='star'></Image>
+                <Image quality={100} src='/images/largeStar.png' width={25} height={24} alt='star'></Image>
                 <h2 className='font-bold text-black text-ls'>Trustpilot</h2>
             </div>
         </div>
@@ -37,7 +37,7 @@ const GreenStarSection = () => {
                 <div>
                     <div className="flex gap-[2px]">
                         {
-                            [1, 2, 3, 4, 5].map(single => <Image key={single} src='/images/fill_star.png' width={20} height={20} alt='star'></Image>)
+                            [1, 2, 3, 4, 5].map(single => <Image quality={100} key={single} src='/images/fill_star.png' width={20} height={20} alt='star'></Image>)
                         }
                     </div>
                 </div>

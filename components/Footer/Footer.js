@@ -13,35 +13,35 @@ const Footer = () => {
                     <div>
                         <div className='flex md:hidden gap-[20px] mb-[46px] '>
                             <a href="#" className='inline-block'>
-                                <Image className='max-w-[36px]' layout='raw' src='/images/redit.png' width={100} height={100} alt='icons'></Image>
+                                <Image quality={100} className='max-w-[36px]' layout='raw' src='/images/redit.png' width={100} height={100} alt='icons'></Image>
                             </a>
                             <a href="#" className='inline-block'>
 
-                                <Image className='max-w-[36px]' layout='raw' src='/images/face.png' width={100} height={100} alt='icons'></Image>
+                                <Image quality={100} className='max-w-[36px]' layout='raw' src='/images/face.png' width={100} height={100} alt='icons'></Image>
                             </a>
                             <div className='flex gap-[6px] items-center'>
                                 <a href="#" className='inline-block'>
-                                    <Image className='max-w-[36px]' layout='raw' src='/images/extrastar.png' width={100} height={100} alt='icons'></Image>
+                                    <Image quality={100} className='max-w-[36px]' layout='raw' src='/images/extrastar.png' width={100} height={100} alt='icons'></Image>
                                 </a>
                                 <a href="#" className='inline-block'>
-                                    <Image className='max-w-[102px]' layout='raw' src='/images/trustpilot.png' width={400} height={80} alt='icons'></Image>
+                                    <Image quality={100} className='max-w-[102px]' layout='raw' src='/images/trustpilot.png' width={400} height={80} alt='icons'></Image>
                                 </a>
                             </div>
                         </div>
                         <div className='md:flex hidden gap-[20px] '>
                             <a href="#" className='inline-block'>
-                                <Image className='max-w-[36px]' layout='raw' src='/images/gray-redit.png' width={80} height={80} alt='icons'></Image>
+                                <Image quality={100} className='max-w-[36px]' layout='raw' src='/images/gray-redit.png' width={80} height={80} alt='icons'></Image>
                             </a>
                             <a href="#" className='inline-block'>
 
-                                <Image className='max-w-[36px]' layout='raw' src='/images/gray-face.png' width={80} height={80} alt='icons'></Image>
+                                <Image quality={100} className='max-w-[36px]' layout='raw' src='/images/gray-face.png' width={80} height={80} alt='icons'></Image>
                             </a>
                             <div className='flex gap-[6px] items-center'>
                                 <a href="#" className='inline-block'>
-                                    <Image className='max-w-[36px]' layout='raw' src='/images/gray-extrastar.png' width={80} height={80} alt='icons'></Image>
+                                    <Image quality={100} className='max-w-[36px]' layout='raw' src='/images/gray-extrastar.png' width={80} height={80} alt='icons'></Image>
                                 </a>
                                 <a href="#" className='inline-block'>
-                                    <Image className='max-w-[102px]' layout='raw' src='/images/trustpilot.png' width={200} height={80} alt='icons'></Image>
+                                    <Image quality={100} className='max-w-[102px]' layout='raw' src='/images/trustpilot.png' width={200} height={80} alt='icons'></Image>
                                 </a>
                             </div>
                         </div>
