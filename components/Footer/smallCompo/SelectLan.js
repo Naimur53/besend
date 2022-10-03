@@ -8,7 +8,7 @@ const SelectLan = ({ dark }) => {
         <div className='flex justify-center items-center '>
             <div>
                 {
-                    dark ? <Image quality={100} src='/images/dark-world.png' layout='raw' className='min-w-[16px] w-[16px]' width={700} height={400} alt='icon world'></Image> : <Image quality={100} src='/images/white-world.png' layout='raw' className='min-w-[16px] w-[16px]' width={700} height={400} alt='icon world'></Image>
+                    dark ? <Image quality={100} src='/images/internet.svg' layout='raw' className='min-w-[16px] w-[16px]' width={700} height={400} alt='icon world'></Image> : <Image quality={100} src='/images/white-world.png' layout='raw' className='min-w-[16px] w-[16px]' width={700} height={400} alt='icon world'></Image>
                 }
             </div>
             <div className={`${dark ? 'select_custom_input_wrap_without_label_dark' : ''} select_custom_input_wrap_without_label_transparent select_custom_input_wrap`}>

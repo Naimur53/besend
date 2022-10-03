@@ -21,7 +21,7 @@ const Topbar = () => {
     const navList = (
         <ul className="mb-4 mt-2 flex flex-col gap-[12px] xl:mb-0 xl:mt-0 xl:flex-row xl:items-center xl:gap-[24px]">
             {
-                data.map(single => <li className='list-item font-medium hover:text-[#8BD7C0] transition-all' key={single.link}>
+                data.map(single => <li onClick={() => setOpenNav(false)} className='list-item font-medium hover:text-[#8BD7C0] transition-all' key={single.link}>
                     <a className=' ' href={single.link}>
                         {single.name}
                     </a>
