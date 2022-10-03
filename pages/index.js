@@ -15,7 +15,7 @@ const Home = () => {
     <div>
       <MainHead></MainHead>
       <Topbar></Topbar>
-      <div className='container pb-[100px] '>
+      <div className='container pb-[120px] md:pb-[100px] '>
 
         <HomeBanner></HomeBanner>
         <BlackCardWrap></BlackCardWrap>

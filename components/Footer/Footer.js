@@ -4,7 +4,7 @@ import SelectLan from './smallCompo/SelectLan';
 
 const Footer = () => {
     return (
-        <div className='py-[32px] md:pb-[61px] md:pt-[54px] bg-main-black mt-[177px]'>
+        <div className='py-[32px] md:pb-[61px] md:pt-[54px] bg-main-black mt-[162px] md:mt-[177px]'>
             <div className="container">
                 <div className='flex flex-col md:flex-row items-start justify-between'>
                     <div className='block md:hidden'>

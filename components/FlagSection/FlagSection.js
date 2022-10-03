@@ -34,7 +34,7 @@ const FlagSection = () => {
         'Эстония',
     ]
     return (
-        <div id='Возможности' className='pt-[100px] pb-[80px] md:pb-[120px] bg-white'>
+        <div id='Возможности' className='pt-[60px] md:pt-[100px] pb-[80px] md:pb-[120px] bg-white'>
             <div className="container">
                 <div className="text-center mb-[36px]">
                     <h2 className='text-[12px] md:text-[15px] text-[#64748B] leading-[18px] mb-[12px]'>Возможности</h2>

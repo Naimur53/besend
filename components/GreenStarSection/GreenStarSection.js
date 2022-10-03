@@ -53,7 +53,7 @@ const GreenStarSection = () => {
         </div>
     }
     return (
-        <div id='Отзывы' className='pt-[172px] font-Roboto'>
+        <div id='Отзывы' className='pt-[180px] font-Roboto'>
             <div className='text-center mb-[36px] md:mb-[52px] flex flex-col justify-center items-center'>
                 <h4 className='text-[15px] leading-[18px] text-[#64748B] mb-[12px]'>Отзывы</h4>
                 <h1 className='text-normal font-medium md:text-base  w-1/2 '>Нам доверяют 123 человека</h1>
