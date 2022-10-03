@@ -1,4 +1,4 @@
-import Image from "next/dist/client/image";
+import Image from "next/future/image";
 import HomeInputs from "./smallCompo/HomeInputs/HomeInputs";
 const HomeBanner = () => {
     return (
@@ -15,7 +15,7 @@ const HomeBanner = () => {
                         <p className="text-sm font-bold font-Roboto hidden md:block mt-[60px] mb-2">
                             Excellent 4.8
                             <span className="font-normal"> out of 5 </span>
-                            <span><Image src='/images/shape.png' width={14} height={13} alt='star'></Image></span>
+                            <span><Image className='inline-block max-w-[14px] rounded-[3px]' layout='raw' src='/images/shape.png' width={90} height={50} alt='star'></Image></span>
                             Trustpilot
                         </p>
                     </div>

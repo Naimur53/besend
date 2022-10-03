@@ -1,5 +1,5 @@
 import { Select, Option, Input } from "@material-tailwind/react";
-import Image from "next/dist/client/image";
+import Image from "next/future/image";
 import DropdownSelect from "../DropdownSelect/DropdownSelect";
 
 const HomeInputs = () => {
@@ -23,7 +23,7 @@ const HomeInputs = () => {
                             <Option className='list-none' value={'России'}>
                                 <div className="flex items-center  ">
                                     <div>
-                                        <Image className="rounded-md" src="/images/flag1.png" width={38} height={28} alt="flag" />
+                                        <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag1.png" layout="raw" width={100} height={100} alt="flag" />
                                     </div>
                                     <p className="ml-[7px] text-sm text-black">России</p>
                                 </div>
@@ -31,7 +31,7 @@ const HomeInputs = () => {
                             <Option className='list-none' value={"More"}>
                                 <div className="flex items-center  ">
                                     <div>
-                                        <Image className="rounded-md" src="/images/flag1.png" width={38} height={28} alt="flag" />
+                                        <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag1.png" layout="raw" width={100} height={100} alt="flag" />
                                     </div>
                                     <p className="ml-[7px] text-sm text-black">More</p>
                                 </div>
@@ -39,7 +39,7 @@ const HomeInputs = () => {
                             <Option selected className='list-none' value="More 2" >
                                 <div className="flex items-center  ">
                                     <div>
-                                        <Image className="rounded-md" src="/images/flag1.png" width={38} height={28} alt="flag" />
+                                        <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag1.png" layout="raw" width={100} height={100} alt="flag" />
                                     </div>
                                     <p className="ml-[7px] text-sm text-black">More 2</p>
                                 </div>
@@ -47,7 +47,7 @@ const HomeInputs = () => {
                             <Option selected className='list-none' value={0}>
                                 <div className="flex items-center  ">
                                     <div>
-                                        <Image className="rounded-md" src="/images/flag1.png" width={38} height={28} alt="flag" />
+                                        <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag1.png" layout="raw" width={100} height={100} alt="flag" />
                                     </div>
                                     <p className="ml-[7px] text-sm text-black">More</p>
                                 </div>
@@ -71,7 +71,7 @@ const HomeInputs = () => {
                             <Option className='list-none' value={'Украину'}>
                                 <div className="flex items-center  ">
                                     <div>
-                                        <Image className="rounded-md" src="/images/flag2.png" width={38} height={28} alt="flag" />
+                                        <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag2.png" layout="raw" width={100} height={100} alt="flag" />
                                     </div>
                                     <p className="ml-[7px] text-sm text-black">Украину</p>
                                 </div>
@@ -79,7 +79,7 @@ const HomeInputs = () => {
                             <Option className='list-none' value={"More"}>
                                 <div className="flex items-center  ">
                                     <div>
-                                        <Image className="rounded-md" src="/images/flag2.png" width={38} height={28} alt="flag" />
+                                        <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag2.png" layout="raw" width={100} height={100} alt="flag" />
                                     </div>
                                     <p className="ml-[7px] text-sm text-black">More</p>
                                 </div>
@@ -87,7 +87,7 @@ const HomeInputs = () => {
                             <Option selected className='list-none' value="More 2" >
                                 <div className="flex items-center  ">
                                     <div>
-                                        <Image className="rounded-md" src="/images/flag2.png" width={38} height={28} alt="flag" />
+                                        <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag2.png" layout="raw" width={100} height={100} alt="flag" />
                                     </div>
                                     <p className="ml-[7px] text-sm text-black">More 2</p>
                                 </div>
@@ -95,7 +95,7 @@ const HomeInputs = () => {
                             <Option selected className='list-none' value={0}>
                                 <div className="flex items-center  ">
                                     <div>
-                                        <Image className="rounded-md" src="/images/flag1.png" width={38} height={28} alt="flag" />
+                                        <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag2.png" layout="raw" width={100} height={100} alt="flag" />
                                     </div>
                                     <p className="ml-[7px] text-sm text-black">More</p>
                                 </div>
@@ -112,7 +112,7 @@ const HomeInputs = () => {
                             <Option className='list-none' value={'Украину'}>
                                 <div className="flex items-center  ">
                                     <div>
-                                        <Image className="rounded-md" src="/images/flag2.png" width={38} height={28} alt="flag" />
+                                        <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag2.png" layout="raw" width={100} height={100} alt="flag" />
                                     </div>
                                     <p className="ml-[7px] text-sm text-black">Украину</p>
                                 </div>
@@ -120,7 +120,7 @@ const HomeInputs = () => {
                             <Option className='list-none' value={"More"}>
                                 <div className="flex items-center  ">
                                     <div>
-                                        <Image className="rounded-md" src="/images/flag2.png" width={38} height={28} alt="flag" />
+                                        <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag2.png" layout="raw" width={100} height={100} alt="flag" />
                                     </div>
                                     <p className="ml-[7px] text-sm text-black">More</p>
                                 </div>
@@ -128,7 +128,7 @@ const HomeInputs = () => {
                             <Option selected className='list-none' value="More 2" >
                                 <div className="flex items-center  ">
                                     <div>
-                                        <Image className="rounded-md" src="/images/flag2.png" width={38} height={28} alt="flag" />
+                                        <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag2.png" layout="raw" width={100} height={100} alt="flag" />
                                     </div>
                                     <p className="ml-[7px] text-sm text-black">More 2</p>
                                 </div>
@@ -136,7 +136,7 @@ const HomeInputs = () => {
                             <Option selected className='list-none' value={0}>
                                 <div className="flex items-center  ">
                                     <div>
-                                        <Image className="rounded-md" src="/images/flag1.png" width={38} height={28} alt="flag" />
+                                        <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag2.png" layout="raw" width={100} height={100} alt="flag" />
                                     </div>
                                     <p className="ml-[7px] text-sm text-black">More</p>
                                 </div>
@@ -151,7 +151,7 @@ const HomeInputs = () => {
                         Итого
                     </p>
                     <div className="flex gap-[10px] items-center">
-                        <Image src="/images/clock.png" width={20} height={20} alt="clock" />
+                        <Image layout='raw' src="/images/clock.png" width={100} height={100} className='w-[20px] max-w-[20px]' alt="clock" />
                         <p className="text-[#64748B] text-[14px] md:text-ls">Цена обновится через 4:57</p>
                     </div>
                 </div>
@@ -160,7 +160,7 @@ const HomeInputs = () => {
                         <Option className='list-none' value={'России'}>
                             <div className="flex items-center  ">
                                 <div>
-                                    <Image className="rounded-md" src="/images/flag1.png" width={38} height={28} alt="flag" />
+                                    <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag2.png" layout="raw" width={100} height={100} alt="flag" />
                                 </div>
                                 <p className="ml-[7px] text-sm text-black">России</p>
                             </div>
@@ -168,7 +168,7 @@ const HomeInputs = () => {
                         <Option className='list-none' value={"More"}>
                             <div className="flex items-center  ">
                                 <div>
-                                    <Image className="rounded-md" src="/images/flag1.png" width={38} height={28} alt="flag" />
+                                    <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag2.png" layout="raw" width={100} height={100} alt="flag" />
                                 </div>
                                 <p className="ml-[7px] text-sm text-black">More</p>
                             </div>
@@ -186,7 +186,7 @@ const HomeInputs = () => {
                         <Option className='list-none' value={'more'}>
                             <div className="flex items-center  ">
                                 <div>
-                                    <Image className="rounded-md" src="/images/flag1.png" width={38} height={28} alt="flag" />
+                                    <Image className="w-[38px] max-w-[38px] rounded-md" src="/images/flag2.png" layout="raw" width={100} height={100} alt="flag" />
                                 </div>
                                 <p className="ml-[7px] text-sm text-black">More</p>
                             </div>
@@ -197,7 +197,7 @@ const HomeInputs = () => {
                 <button type="submit" className="py-[20px] px-[32px] bg-[#8BD7C0] w-full rounded-[16px] mt-[12px]">
                     <div className="flex justify-center items-center gap-[12px]">
                         <p className="text-[#F3F5F6] text-normal font-semibold">Перевести</p>
-                        <Image src='/images/rightArrow.png' width={15} height={15} alt='arrow'></Image>
+                        <Image className="w-[15px] max-w-[15px]" src='/images/rightArrow.png' width={80} height={80} alt='arrow'></Image>
                     </div>
                 </button>
             </form>

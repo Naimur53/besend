@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/future/image';
 import React from 'react';
 
 const FlagSection = () => {
@@ -45,7 +45,7 @@ const FlagSection = () => {
                         {
                             data.slice(0, 8).map((single, i) => <div className='mb-[20px] flex items-center' key={i}>
                                 <div className='inline-block mr-[8px]'>
-                                    <Image className='rounded-[3px]' src={`/images/icons/c-${(i + 1)}.png`} width={20} height={16} alt='flag'></Image>
+                                    <Image className='max-w-[20px] rounded-[3px]' layout='raw' src={`/images/icons/c-${(i + 1)}.png`} width={40} height={32} alt='flag'></Image>
                                 </div>
                                 <span>{single}</span>
                             </div>)
@@ -55,7 +55,7 @@ const FlagSection = () => {
                         {
                             data.slice(8, 16).map((single, i) => <div className='mb-[20px] flex items-center' key={i}>
                                 <div className='inline-block mr-[8px]'>
-                                    <Image className='rounded-[3px]' src={`/images/icons/c-${(i + 1) + 8}.png`} width={20} height={16} alt='flag'></Image>
+                                    <Image className='max-w-[20px] rounded-[3px]' layout='raw' src={`/images/icons/c-${(i + 1) + 8}.png`} width={40} height={32} alt='flag'></Image>
                                 </div>
                                 <span>{single}</span>
                             </div>)
@@ -65,7 +65,7 @@ const FlagSection = () => {
                         {
                             data.slice(16, 24).map((single, i) => <div className='mb-[20px] flex items-center' key={i}>
                                 <div className='inline-block mr-[8px]'>
-                                    <Image className='rounded-[3px]' src={`/images/icons/c-${(i + 17)}.png`} width={20} height={16} alt='flag'></Image>
+                                    <Image className='max-w-[20px] rounded-[3px]' layout='raw' src={`/images/icons/c-${(i + 17)}.png`} width={40} height={32} alt='flag'></Image>
                                 </div>
                                 <span>{single}</span>
                             </div>)
@@ -75,7 +75,7 @@ const FlagSection = () => {
                         {
                             data.slice(24, 32).map((single, i) => <div className='mb-[20px] flex items-center' key={i}>
                                 <div className='inline-block mr-[8px]'>
-                                    <Image className='rounded-[3px]' src={`/images/icons/c-${(i + 25)}.png`} width={20} height={16} alt='flag'></Image>
+                                    <Image className='max-w-[20px] rounded-[3px]' layout='raw' src={`/images/icons/c-${(i + 25)}.png`} width={40} height={32} alt='flag'></Image>
                                 </div>
                                 <span>{single}</span>
                             </div>)
