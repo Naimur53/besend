@@ -2,11 +2,8 @@ import { useState, useEffect } from 'react';
 import {
     Navbar,
     MobileNav,
-    Typography,
-    Button,
     IconButton,
 } from "@material-tailwind/react";
-import Image from 'next/future/image';
 import SelectLan from '../Footer/smallCompo/SelectLan';
 
 const Topbar = () => {
@@ -25,8 +22,6 @@ const Topbar = () => {
                     <a className=' ' href={single.link}>
                         {single.name}
                     </a>
-
-
                 </li>)
             }
         </ul>
@@ -42,7 +37,7 @@ const Topbar = () => {
             <Navbar shadow={false} blurred={false} fullWidth={true} className="w-full fixed top-0 z-50 py-[17px] lg:px-8 lg:py-4  bg-[#F3F4F5] border-b border-[#E7EAEE]">
                 <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
                     <div>
-                        <img quality={100} className='min-w-[116px] w-[116px]' width={700} height={80} alt='logo' layout='raw' src='/images/logo.png'></img>
+                        <img className='min-w-[116px] w-[116px]' width={700} height={80} alt='logo' layout='raw' src='/images/logo.svg'></img>
                     </div>
 
                     <div className="hidden xl:block px-3 lg:text-xs 2xl:text-ls">{navList}</div>
