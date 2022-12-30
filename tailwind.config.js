@@ -9,7 +9,8 @@ module.exports = withMT({
   theme: {
     extend: {
       colors: {
-        "main-black": "#242B31"
+        "main-black": "#242B31",
+        "main-white": "#F3F5F6",
       },
       fontSize: {
         'xs': ['12px', { lineHeight: '14px', }],

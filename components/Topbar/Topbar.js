@@ -5,6 +5,7 @@ import {
     IconButton,
 } from "@material-tailwind/react";
 import SelectLan from '../Footer/smallCompo/SelectLan';
+import Link from 'next/link';
 
 const Topbar = () => {
     const [openNav, setOpenNav] = useState(false);
@@ -36,9 +37,9 @@ const Topbar = () => {
         <div>
             <Navbar shadow={false} blurred={false} fullWidth={true} className="w-full fixed top-0 z-50 py-[17px] lg:px-8 lg:py-4  bg-[#F3F4F5] border-b border-[#E7EAEE]">
                 <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
-                    <div>
-                        <img className='min-w-[116px] w-[116px]' width={700} height={80} alt='logo' layout='raw' src='/images/logo.svg'></img>
-                    </div>
+                    <Link href='/'>
+                        <img className='min-w-[116px] w-[116px] cursor-pointer' width={700} height={80} alt='logo' layout='raw' src='/images/logo.svg'></img>
+                    </Link>
 
                     <div className="hidden xl:block px-3 lg:text-xs 2xl:text-ls">{navList}</div>
                     <div className='hidden xl:flex'>
@@ -98,8 +99,8 @@ const Topbar = () => {
                     </div>
 
                 </MobileNav>
-            </Navbar>
-        </div>
+            </Navbar >
+        </div >
     );
 };
 

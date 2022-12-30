@@ -82,6 +82,14 @@ height: 40px;
   right: 30px!important;
   color: black;
 }
+.select_custom_input_wrap_without_label_dark_small_gap >div button > div{
+  right: 48px!important; 
+  color: black;
+}
+.select_custom_input_wrap_without_label_dark_small_gap{
+  width: 60px;
+}
+
 .select_custom_input{
   border: none;
 }
@@ -132,5 +140,20 @@ top: 12px;
   .radio_custom_input {
     @apply radio text-center self-center py-[12px] px-[70px] rounded-[12px] cursor-pointer hover:opacity-75 transition-all w-full text-ls font-medium  h-[44px] flex justify-center items-center
   } 
+  .panel_button{
+    @apply bg-[#30B68D] text-white rounded-[10px] w-full font-medium	 text-ls  p-[10px] leading-[20px] text-center hover:bg-[#30b68e96]
+  }
+  .panel_button.gray{
+    @apply bg-[#E7EAEE] text-[#242B31]
+  }
+  .sidebar_option li{
+    @apply flex m-[10px] ml-0 border-l-[4px] border-transparent pl-[30px] items-center text-ls rounded-[4px] cursor-pointer
+  }
+  .sidebar_option li div.option_icon{
+    @apply pr-[10px]
+  }
+  .sidebar_option li.active{
+    @apply text-[#36CFA1] border-[#36CFA1]
+  }
 
 }
