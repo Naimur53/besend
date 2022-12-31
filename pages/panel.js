@@ -3,15 +3,15 @@ import MainHead from '../components/MainHead/MainHead';
 import PanelMain from '../components/PanelMain/PanelMain';
 import SideBar from '../components/SideBar/SideBar';
 
-const panel = () => {
+const Panel = () => {
     return (
         <div>
             <MainHead></MainHead>
             <div className='flex bg-white'>
-                <div className="bg-main-white w-[312px] h-screen">
+                <div className="bg-main-white w-[312px] h-screen fixed top-0 bottom-0">
                     <SideBar></SideBar>
                 </div>
-                <div className='w-[calc(100%-312px)]'>
+                <div className='w-[calc(100%-312px)] ml-[312px]'>
                     <PanelMain></PanelMain>
                 </div>
 
@@ -20,4 +20,4 @@ const panel = () => {
     );
 };
 
-export default panel;
+export default Panel;

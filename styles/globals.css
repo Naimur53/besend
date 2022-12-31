@@ -147,7 +147,7 @@ top: 12px;
     @apply bg-[#E7EAEE] text-[#242B31]
   }
   .sidebar_option li{
-    @apply flex m-[10px] ml-0 border-l-[4px] border-transparent pl-[30px] items-center text-ls rounded-[4px] cursor-pointer
+    @apply flex m-[10px] ml-0 border-l-[4px] border-transparent pl-[30px] items-center text-ls rounded-[4px] cursor-pointer 
   }
   .sidebar_option li div.option_icon{
     @apply pr-[10px]

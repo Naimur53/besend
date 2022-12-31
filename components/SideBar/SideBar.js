@@ -6,7 +6,7 @@ import PanelOption from '../PanelOption/PanelOption'
 
 const SideBar = () => {
     return (
-        <div className="h-full flex flex-col justify-between">
+        <div className="h-full flex flex-col justify-between ">
             {/* top */}
             <div>
                 <div className="
