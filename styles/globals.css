@@ -155,5 +155,16 @@ top: 12px;
   .sidebar_option li.active{
     @apply text-[#36CFA1] border-[#36CFA1]
   }
+  .chat-header-shadow{
+
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  }
+  .message-wrap{
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .message-wrap::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
 
 }

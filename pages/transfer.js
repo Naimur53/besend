@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
+import Chat from '../components/Chat/Chat';
 import TransferMainCon from '../components/TransferMainCon/TransferMainCon';
 
 const Transfer = () => {
     return (
-        <div className='mt-[32px]'>
+        <div className='mt-[32px] pb-10'>
             <div className="container ">
                 <div className=' mx-auto flex justify-center relative'>
                     <div >
@@ -56,11 +57,14 @@ const Transfer = () => {
                             <button className='panel_button whitespace-nowrap !px-[20px]'>Я перевёл</button>
                         </div>
                     </div>
-                    <div className="grid grid-cols-2 mt-[12px]">
+                    <div className="grid grid-cols-2 mt-[12px] gap-[20px]">
                         <div>
                             <TransferMainCon></TransferMainCon>
                         </div>
                         <div>
+                            <Chat></Chat>
+
+                            <p className='pt-[12px] text-ls text-[#64748B]'>Как только агент получит платеж, он отправит деньги получателю и он сможет получить перевод в личном кабинете</p>
 
                         </div>
                     </div>
