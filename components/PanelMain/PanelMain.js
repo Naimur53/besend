@@ -7,15 +7,15 @@ const PanelMain = () => {
         <div>
             <PanelTopBar></PanelTopBar>
             <PanelSlide></PanelSlide>
-            <div className='px-[30px] mt-[100px] '>
-                <div className='flex items-center gap-[20px]'>
+            <div className='px-[16px] md:px-[30px] mt-[62px]  md:mt-[100px] '>
+                <div className='flex items-center gap-[20px] '>
                     <div>
-                        <p className='whitespace-nowrap text-[15px] leading-[18px]'>История переводов</p>
+                        <p className='whitespace-nowrap text-[14px] md:text-[15px] leading-[18px]'>История <span className='hidden md:inline-block'>переводов</span></p>
                     </div>
                     <hr className='w-full border-[#E7EAEE]' />
-                    <div className='flex gap-[8px] items-center'>
-                        <img src="/images/eye-green.png" alt="" />
-                        <p className='whitespace-nowrap text-ls font-medium text-[#30B68D]'>Показать архивные</p>
+                    <div className='flex gap-[4px]   md:gap-[8px] items-center '>
+                        <img src="/images/eye-green.png" alt="icon" />
+                        <p className=' w-[153px] md:w-[170px] text-[14px] md:text-ls font-medium text-[#30B68D]'>Показать архивные</p>
                     </div>
                 </div>
                 {/* items  */}
@@ -23,16 +23,16 @@ const PanelMain = () => {
                     {/* single */}
                     <div className='bg-[#F7F8F9] p-[16px] rounded-[16px]'>
                         <div className='flex'>
-                            <div className='min-w-[56px] h-[56px] p-[10px] bg-[#F3F5F6] flex justify-center items-center rounded-full'>
+                            <div className='code_slide_icon_wrap gray  '>
                                 <img className='w-[19px] grayscale' src="/images/downup.png" alt="icons" />
                             </div>
                             <div className='w-full pl-[12px]'>
                                 <div className='flex justify-between'>
-                                    <span className='text-[15px] leading-[18px] text-[#64748B] uppercase'>вчера</span>
+                                    <span className='code_text_b'>вчера</span>
 
                                 </div>
                                 <div>
-                                    <div className='font-semibold my-[8px] text-[#B8C0CC] text-normal '>10 000 <span className='text-[18px]'>₽</span> <img className='inline-block' src="/images/right-big.png" alt="" /> <span className='text-main-black'>~ 3 000 ₴</span></div>
+                                    <div className='code_large_text text-[#B8C0CC]'>10 000 <span className='text-[18px]'>₽</span> <img className='inline-block' src="/images/right-big.png" alt="" /> <span className='text-main-black'>~ 3 000 ₴</span></div>
                                     <p className='text-xs font-medium text-main-black'>в Украину, <span className='text-[#64748B] font-sans'>себе</span></p>
                                 </div>
 
@@ -42,16 +42,16 @@ const PanelMain = () => {
                     {/* single */}
                     <div className='bg-[#F7F8F9] p-[16px] rounded-[16px]'>
                         <div className='flex'>
-                            <div className='min-w-[56px] h-[56px] p-[10px] bg-[#F3F5F6] flex justify-center items-center rounded-full'>
+                            <div className='code_slide_icon_wrap gray'>
                                 <img className='w-[19px] grayscale' src="/images/up-green.png" alt="icons" />
                             </div>
                             <div className='w-full pl-[12px]'>
                                 <div className='flex justify-between'>
-                                    <span className='text-[15px] leading-[18px] text-[#64748B] uppercase'>вчера</span>
+                                    <span className='code_text_b'>вчера</span>
 
                                 </div>
                                 <div>
-                                    <div className='font-semibold my-[8px] text-[#B8C0CC] text-normal '>10 000 <span className='text-[18px]'>₽</span> <img className='inline-block' src="/images/right-big.png" alt="" /> <span className='text-main-black'>3 000 ₴</span></div>
+                                    <div className='code_large_text text-[#B8C0CC] '>10 000 <span className='text-[18px]'>₽</span> <img className='inline-block' src="/images/right-big.png" alt="" /> <span className='text-main-black'>3 000 ₴</span></div>
                                     <p className='text-xs font-medium text-main-black'>в Украину, <span className='text-[#64748B] font-sans'>+380 999 999 99 99 (Сергей)</span></p>
                                 </div>
 
@@ -60,16 +60,16 @@ const PanelMain = () => {
                     </div>
                     <div className='bg-[#F7F8F9] p-[16px] rounded-[16px]'>
                         <div className='flex'>
-                            <div className='min-w-[56px] h-[56px] p-[10px] bg-[#F3F5F6] flex justify-center items-center rounded-full'>
+                            <div className='code_slide_icon_wrap gray'>
                                 <img className='w-[19px] grayscale' src="/images/down-green.png" alt="icons" />
                             </div>
                             <div className='w-full pl-[12px]'>
                                 <div className='flex justify-between'>
-                                    <span className='text-[15px] leading-[18px] text-[#64748B] uppercase'>вчера</span>
+                                    <span className='code_text_b'>вчера</span>
 
                                 </div>
                                 <div>
-                                    <div className='font-semibold my-[8px] text-[#B8C0CC] text-normal '>  <span className='text-main-black'> 3 000 ₴</span></div>
+                                    <div className='code_large_text text-[#B8C0CC] '>  <span className='text-main-black'> 3 000 ₴</span></div>
                                     <p className='text-xs font-medium text-main-black'>от: <span className='text-[#64748B] font-sans'>+380 999 999 99 99 (Сергей)</span></p>
                                 </div>
 
@@ -80,12 +80,12 @@ const PanelMain = () => {
                     {/* single */}
                     <div className='bg-[#F7F8F9] p-[16px] rounded-[16px]'>
                         <div className='flex'>
-                            <div className='min-w-[56px] h-[56px] p-[10px] bg-[#F3F5F6] flex justify-center items-center rounded-full'>
+                            <div className='code_slide_icon_wrap gray'>
                                 <img className='w-[19px] grayscale' src="/images/up-green.png" alt="icons" />
                             </div>
                             <div className='w-full pl-[12px]'>
                                 <div className='flex justify-between'>
-                                    <span className='text-[15px] leading-[18px] text-[#64748B] uppercase'>вчера</span>
+                                    <span className='code_text_b'>вчера</span>
 
                                 </div>
                                 <div>

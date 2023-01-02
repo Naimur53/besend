@@ -86,6 +86,16 @@ height: 40px;
   right: 48px!important; 
   color: black;
 }
+.select_custom_input_wrap_without_label_dark_small_gap_img >div button > div{
+  right: 9px!important; 
+  color: black;
+}
+
+.select_custom_input_wrap_without_label_dark_small_gap_img >div {
+  min-width:85px;
+  height: 40px;
+  
+  } 
 .select_custom_input_wrap_without_label_dark_small_gap{
   width: 60px;
 }
@@ -136,12 +146,15 @@ top: 12px;
   max-height: 40px; 
 
 }
+.green_cursor{
+  caret-color:#36CFA1
+}
 @layer utilities {
   .radio_custom_input {
     @apply radio text-center self-center py-[12px] px-[70px] rounded-[12px] cursor-pointer hover:opacity-75 transition-all w-full text-ls font-medium  h-[44px] flex justify-center items-center
   } 
   .panel_button{
-    @apply bg-[#30B68D] text-white rounded-[10px] w-full font-medium	 text-ls  p-[10px] leading-[20px] text-center hover:bg-[#30b68e96]
+    @apply bg-[#30B68D] text-white rounded-[10px] w-full font-medium	text-xs md:text-ls px-[13px] py-[10px]  md:p-[10px] leading-[20px] text-center hover:bg-[#30b68e96]
   }
   .panel_button.gray{
     @apply bg-[#E7EAEE] text-[#242B31]
@@ -165,6 +178,33 @@ top: 12px;
   }
   .message-wrap::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
-}
+  }
+  .slide_wrap_main{
+  @apply min-w-[285px] max-w-[285px] md:min-w-[388px] md:max-w-[388px]
+  }
+  .code_slide_single_container{
+    @apply bg-[#F7F8F9] p-[12px] md:p-[16px] rounded-[16px]
+  }
+  .code_slide_icon_wrap{
+    @apply min-w-[40px] md:min-w-[56px] h-[40px] md:h-[56px] p-[10px] bg-[#E5F6F1] flex justify-center items-center rounded-full
+  }
+  /*   */
+  .code_slide_icon_wrap.gray{
+    @apply bg-[#F3F5F6] 
+  }
+  .code_text_b{
+    @apply text-xs leading-[16px] md:text-[15px] md:leading-[18px] text-[#64748B] uppercase
+  }
+  .code_color_box{
+    @apply text-[10px] leading-[12px] md:text-xs px-[8px] py-[4px] rounded-[8px] font-medium
+  }
+  .code_large_text{
+    @apply text-sm md:text-normal font-semibold mt-[7px] mb-[4px] md:my-[8px] 
+  }
+  .code_down_small_text{
+    @apply text-[10px] leading-[12px] md:text-xs font-medium
+  }
+
+
 
 }

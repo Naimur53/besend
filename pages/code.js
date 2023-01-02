@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import CodeInputs from '../components/CodeInputs/CodeInputs';
 
 const code = () => {
     return (
@@ -25,10 +26,8 @@ const code = () => {
                             <p className='text-sm'>Мы отправили СМС на номер +7 (323) 434 64 33. <br /> Обычно оно приходит в течение минуты.</p>
                         </div>
 
+                        <CodeInputs></CodeInputs>
                     </div>
-                </div>
-                <div>
-
                 </div>
 
             </div>
