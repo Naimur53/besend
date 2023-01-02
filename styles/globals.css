@@ -205,6 +205,32 @@ top: 12px;
     @apply text-[10px] leading-[12px] md:text-xs font-medium
   }
 
+  .bottom_nav_item{
+    @apply text-[#B8C0CC] text-xs  w-full flex justify-center gap-[3px] flex-col items-center
+  }
+  .bottom_nav_item .icon{
+    @apply text-[18px] 
+  }
+  .bottom_nav_item.active{
+ 
+    @apply text-main-green
+  }
+
+  .step_count{
+    @apply inline-flex justify-center items-center text-center font-normal text-[10px] md:text-ls text-white w-[16px] md:w-[24px] h-[16px] md:h-[24px] rounded-full bg-[#A0ABBB] mr-0 md:mr-[8px]
+  }
+  .step_count.active{
+    @apply bg-[#36CFA1]
+  }
+  .step_border{
+    @apply border-[#64748B] w-[45px] md:w-[54px] 
+  }
+  .step_text{
+    @apply text-[14px] leading-[20px] md:text-ls text-[#64748B]  md:static bottom-0 top-full right-0  whitespace-nowrap
+  }
+  .step_text.active{
+    @apply text-[#30B68D]
+  }
 
 
 }

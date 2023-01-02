@@ -7,9 +7,10 @@ const Chat = () => {
         bottomRef.current?.scrollTo(100, 100);
     }, [bottomRef]);
     return (
-        <div className='h-[536px] bg-[#E7EAEE] rounded-[16px] flex flex-col justify-between'>
+        <div className='h-[536px] bg-white md:bg-[#E7EAEE] rounded-[16px] flex flex-col justify-between'>
             {/* header */}
-            <div className='p-[16px] bg-white rounded-t-[20px] chat-header-shadow'>
+            <div className='p-[16px] hidden md:block bg-white rounded-t-[20px] chat-header-shadow'>
+
                 <h1 className='text-sm text-main-black font-semibold'>Чат с агентом</h1>
             </div>
             {/* messages */}
@@ -18,7 +19,7 @@ const Chat = () => {
                     [...new Array(6)].map((single, i) => i).map(single => {
                         return single % 2 == 0 ? <div className='text-right py-[10px]'>
                             <div className='inline-block px-[16px] py-[12px] rounded-[8px] bg-[#D0D5DD]'>
-                                <p className='text-xs  font-medium text-main-black'>Text <span className='text-[#B8C0CC] inline-block ml-[8px]'>11:45</span></p>
+                                <p className='text-[14px] md:text-xs  font-medium text-main-black'>Text <span className='text-[#B8C0CC] text-[12px] inline-block ml-[8px]'>11:45</span></p>
                             </div>
                         </div> : <div>
 
@@ -27,9 +28,9 @@ const Chat = () => {
                                     <span>Cr</span>
                                 </div>
                                 <div>
-                                    <p className='text-xs font-medium text-[#A0ABBB] mb-[4px]'>Name</p>
+                                    <p className='text-[14px] md:text-xs font-medium text-[#A0ABBB] mb-[4px]'>Name</p>
                                     <div className='inline-block px-[16px] py-[12px] rounded-[8px] bg-white'>
-                                        <p className='text-xs  font-medium text-main-black'>Text <span className='text-[#B8C0CC] inline-block ml-[8px]'>11:45</span></p>
+                                        <p className='text-[14px] md:text-xs  font-medium text-main-black'>Text <span className='text-[#B8C0CC] text-[12px] inline-block ml-[8px]'>11:45</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -41,13 +42,13 @@ const Chat = () => {
 
             </div>
             {/* input */}
-            <div className='p-[16px]'>
+            <div className='p-[16px] border-t border-[#E7EAEE]'>
                 <form action="">
 
                     <input type="file" id="files" className='hidden' />
-                    <div className='bg-white px-[16px] py-[13px] rounded-[16px] flex justify-between gap-[12px] items-center h-[70px]'>
+                    <div className='bg-white px-[12px] border border-[#E7EAEE] md:px-[16px] py-[13px] rounded-[16px] flex justify-between gap-[12px] items-center h-[70px]'>
                         <label className='min-w-[44px] h-[44px] flex justify-center items-center' htmlFor='files'><img className='w-[28px]' src="/images/attach.png" alt="" /></label>
-                        <input type="text" className='w-full text-sm leading-[28px]' placeholder='Напишите сообщение..' name="" id="" />
+                        <input type="text" className='w-full tex-ls md:text-sm leading-[28px]' placeholder='Напишите сообщение..' name="" id="" />
                         <label className='min-w-[44px] h-[44px] flex justify-center items-center' htmlFor='files'><img className='w-[20px]' src="/images/send.png" alt="" /></label>
 
                     </div>

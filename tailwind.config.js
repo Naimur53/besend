@@ -11,6 +11,7 @@ module.exports = withMT({
       colors: {
         "main-black": "#242B31",
         "main-white": "#F3F5F6",
+        'main-green': '#30B68D',
       },
       fontSize: {
         'xs': ['12px', { lineHeight: '14px', }],

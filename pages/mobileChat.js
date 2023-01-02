@@ -2,9 +2,8 @@ import Link from 'next/link';
 import React from 'react';
 import Chat from '../components/Chat/Chat';
 import LogoAndCloseNav from '../components/LogoAndCloseNav/LogoAndCloseNav';
-import TransferMainCon from '../components/TransferMainCon/TransferMainCon';
 
-const Transfer = () => {
+const mobileChat = () => {
     return (
         <div>
             <LogoAndCloseNav></LogoAndCloseNav>
@@ -101,16 +100,18 @@ const Transfer = () => {
                                 <button className='panel_button whitespace-nowrap !px-[20px]'>Я перевёл</button>
                             </div>
                         </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 mt-[12px] gap-[20px]">
-                            <div>
-                                <TransferMainCon></TransferMainCon>
+                        <div className='mt-[12px] flex text-[14px] leading-[20p]'>
+                            <div className='min-w-[168px] py-[8px]  inline-block'>
+                                <p>Информация о переводе</p>
                             </div>
-                            <div className='hidden md:block'>
-                                <Chat></Chat>
-
-                                <p className='pt-[12px] text-ls text-[#64748B]'>Как только агент получит платеж, он отправит деньги получателю и он сможет получить перевод в личном кабинете</p>
-
+                            <div className=' text-center  whitespace-nowrap w-full py-[8px] text-main-green border-b border-main-green'>
+                                <p>Чат с агентом</p>
                             </div>
+
+                        </div>
+                        <div className='mt-[12px]'>
+                            <Chat></Chat>
+
                         </div>
                     </div>
                 </div>
@@ -119,4 +120,4 @@ const Transfer = () => {
     );
 };
 
-export default Transfer;
+export default mobileChat;

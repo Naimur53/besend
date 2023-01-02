@@ -7,7 +7,7 @@ const PanelMain = () => {
         <div>
             <PanelTopBar></PanelTopBar>
             <PanelSlide></PanelSlide>
-            <div className='px-[16px] md:px-[30px] mt-[62px]  md:mt-[100px] '>
+            <div className='px-[16px] md:px-[30px] mt-[62px]  md:mt-[100px] pb-[100px] md:p-0'>
                 <div className='flex items-center gap-[20px] '>
                     <div>
                         <p className='whitespace-nowrap text-[14px] md:text-[15px] leading-[18px]'>История <span className='hidden md:inline-block'>переводов</span></p>
