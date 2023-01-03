@@ -150,6 +150,11 @@ top: 12px;
   caret-color:#36CFA1
 }
 @layer utilities {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
   .radio_custom_input {
     @apply radio text-center self-center py-[12px] px-[70px] rounded-[12px] cursor-pointer hover:opacity-75 transition-all w-full text-ls font-medium  h-[44px] flex justify-center items-center
   } 
@@ -230,6 +235,12 @@ top: 12px;
   }
   .step_text.active{
     @apply text-[#30B68D]
+  }
+  .otp.active{
+    @apply bg-main-green
+  }
+  .otp.disable{
+    @apply bg-[#8BD7C0]
   }
 
 

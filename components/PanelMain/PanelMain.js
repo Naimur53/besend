@@ -19,7 +19,7 @@ const PanelMain = () => {
                     </div>
                 </div>
                 {/* items  */}
-                <div className='flex flex-col gap-[8px] mt-[22px]' >
+                <div className='flex flex-col gap-[8px] mt-[22px] pb-0 md:pb-5' >
                     {/* single */}
                     <div className='bg-[#F7F8F9] p-[16px] rounded-[16px]'>
                         <div className='flex'>
@@ -77,6 +77,44 @@ const PanelMain = () => {
                         </div>
                     </div>
 
+                    {/* single */}
+                    <div className='bg-[#F7F8F9] p-[16px] rounded-[16px]'>
+                        <div className='flex'>
+                            <div className='code_slide_icon_wrap gray'>
+                                <img className='w-[19px] grayscale' src="/images/up-green.png" alt="icons" />
+                            </div>
+                            <div className='w-full pl-[12px]'>
+                                <div className='flex justify-between'>
+                                    <span className='code_text_b'>вчера</span>
+
+                                </div>
+                                <div>
+                                    <div className='font-semibold my-[8px] text-[#B8C0CC] text-normal '>10 000 <span className='text-[18px]'>₽</span> <img className='inline-block' src="/images/right-big.png" alt="" /> <span className='text-main-black'>~ 3 000 ₴</span></div>
+                                    <p className='text-xs font-medium text-main-black'>в Украину, <span className='text-[#64748B] font-sans'>+380 999 999 99 99 (Сергей)</span></p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    {/* single */}
+                    <div className='bg-[#F7F8F9] p-[16px] rounded-[16px]'>
+                        <div className='flex'>
+                            <div className='code_slide_icon_wrap gray'>
+                                <img className='w-[19px] grayscale' src="/images/up-green.png" alt="icons" />
+                            </div>
+                            <div className='w-full pl-[12px]'>
+                                <div className='flex justify-between'>
+                                    <span className='code_text_b'>вчера</span>
+
+                                </div>
+                                <div>
+                                    <div className='font-semibold my-[8px] text-[#B8C0CC] text-normal '>10 000 <span className='text-[18px]'>₽</span> <img className='inline-block' src="/images/right-big.png" alt="" /> <span className='text-main-black'>~ 3 000 ₴</span></div>
+                                    <p className='text-xs font-medium text-main-black'>в Украину, <span className='text-[#64748B] font-sans'>+380 999 999 99 99 (Сергей)</span></p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                     {/* single */}
                     <div className='bg-[#F7F8F9] p-[16px] rounded-[16px]'>
                         <div className='flex'>

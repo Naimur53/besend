@@ -10,7 +10,7 @@ const TransferMainCon = () => {
                     <p className='text-[#30B68D] text-[14px] md:text-[18px] leading-[22px]'>Кто такой агент?</p>
                 </div>
                 <div className='md:mt-[16px] my-[12px] md:mb-[23px]'>
-                    <p className='text-ls md:text-sm'>
+                    <p className='text-ls md:text-sm leading-[20px] md:leading-[28px]'>
                         Сергей А. <br />
                         2202 2023 0705 0082 <br />
                         Комментарий “Возврат займа”
