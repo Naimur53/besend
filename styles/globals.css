@@ -245,5 +245,8 @@ top: 12px;
   .transfer_tab.active{
     @apply text-main-green border-b  border-main-green
   }
+  div {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
 
 }
