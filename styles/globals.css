@@ -242,6 +242,8 @@ top: 12px;
   .otp.disable{
     @apply bg-[#8BD7C0]
   }
-
+  .transfer_tab.active{
+    @apply text-main-green border-b  border-main-green
+  }
 
 }
