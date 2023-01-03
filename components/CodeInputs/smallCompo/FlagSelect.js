@@ -17,7 +17,9 @@ const FlagSelect = () => {
                     >
                         <Option value={'Rus'} className='text-ls'>
                             <div>
-                                <img className='rounded-[5px] w-[35px] md:w-[38px]' src="/images/flag1.png" alt="" /></div>
+                                <img className='rounded-[5px] w-[35px] md:w-[38px]' src="/images/flag1.png" alt="" />
+
+                            </div>
                         </Option>
                         <Option value={'Eng'} className='text-ls'>
                             <div>

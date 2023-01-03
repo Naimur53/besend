@@ -101,6 +101,18 @@ const Transfer = () => {
                                 <button className='panel_button whitespace-nowrap !px-[20px]'>Я перевёл</button>
                             </div>
                         </div>
+                        <div className='mt-[12px] cursor-pointer md:hidden flex text-[14px] leading-[20p]'>
+                            <div className='text-main-green border-b  border-main-green min-w-[168px] py-[8px]  inline-block'>
+                                <p>Информация о переводе</p>
+                            </div>
+                            <Link href='/mobileChat'>
+
+                                <div className=' cursor-pointer text-center  whitespace-nowrap w-full py-[8px]  '>
+                                    <p>Чат с агентом</p>
+                                </div>
+                            </Link>
+
+                        </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 mt-[12px] gap-[20px]">
                             <div>
                                 <TransferMainCon></TransferMainCon>

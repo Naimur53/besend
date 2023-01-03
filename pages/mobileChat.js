@@ -101,9 +101,11 @@ const mobileChat = () => {
                             </div>
                         </div>
                         <div className='mt-[12px] flex text-[14px] leading-[20p]'>
-                            <div className='min-w-[168px] py-[8px]  inline-block'>
-                                <p>Информация о переводе</p>
-                            </div>
+                            <Link href='/transfer'>
+                                <div className='min-w-[168px] py-[8px]  inline-block'>
+                                    <p>Информация о переводе</p>
+                                </div>
+                            </Link>
                             <div className=' text-center  whitespace-nowrap w-full py-[8px] text-main-green border-b border-main-green'>
                                 <p>Чат с агентом</p>
                             </div>
