@@ -13,18 +13,25 @@ const CodeInputs = () => {
     }, []);
     const handleChange = (e) => {
         const value = e.target.value;
-        if (value.length) {
-            console.log('hi', value.length)
+        if (value.length > 1) {
+            e.target.value = value.slice(0, 1)
 
-            setActive(pre => pre + value.length)
         } else {
-            console.log('hi2', value.length)
 
-            setActive(pre => pre - 1)
+            if (value.length) {
+                console.log('hi', value.length)
+
+                setActive(pre => pre + value.length)
+            } else {
+                console.log('hi2', value.length)
+
+                setActive(pre => pre - 1)
+            }
         }
 
     }
     console.log(active)
+
     return (
         <form>
             <div className='bg-white px-[16px] py-[13px] pl-[7px] rounded-[16px] flex justify-between items-center mt-[34px] md:mt-[62px]'>
@@ -37,7 +44,7 @@ const CodeInputs = () => {
             <p className='text-ls text-[#64748B] mt-[4px] ml-[16px]'>Мы отправим код на этот номер</p>
             <div className='mt-[18px] md:mt-[44px]  text-sm text-main-black grid grid-cols-4 gap-[16px] green_cursor'>
                 <div >
-                    <input type="number" onChange={handleChange} maxLength={1} ref={inputElement} className='w-full bg-white rounded-[16px] h-[79px] md:h-[70px]  px-[16px] py-[13px] focus-visible:outline-[#64748B]' />
+                    <input type="number" onChange={handleChange} ref={inputElement} className='w-full bg-white rounded-[16px] h-[79px] md:h-[70px]  px-[16px] py-[13px] focus-visible:outline-[#64748B]' />
                 </div>
                 <div >
                     <input type="number" maxLength={1} onChange={handleChange} className='w-full bg-white rounded-[16px]  h-[79px] md:h-[70px] px-[16px] py-[13px] focus-visible:outline-[#64748B]' />
