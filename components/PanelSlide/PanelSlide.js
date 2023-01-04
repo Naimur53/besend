@@ -28,7 +28,7 @@ const PanelSlide = () => {
                         <div className=' code_slide_single_container'>
                             <div className='flex'>
                                 <div className='code_slide_icon_wrap'>
-                                    <img className='w-[28px]' src="/images/downup.png" alt="icons" />
+                                    <img className='w-[28px]' src="/images/downup.svg" alt="icons" />
                                 </div>
                                 <div className='w-full pl-[12px]'>
                                     <div className='flex justify-between'>
@@ -36,7 +36,7 @@ const PanelSlide = () => {
                                         <span className='code_color_box bg-[#DEEFFF] text-[#1D82E7] '>Переведите деньги</span>
                                     </div>
                                     <div>
-                                        <div className=' text-[#B8C0CC]  code_large_text'>10 000 <span className='text-[18px]'>₽</span> <img className='inline-block' src="/images/right-big.png" alt="" /> <span className='text-main-black'>~ 3 000 ₴</span></div>
+                                        <div className=' text-[#B8C0CC]  code_large_text'>10 000 <span className='text-[18px]'>₽</span> <img className='inline-block' src="/images/right-big.svg" alt="" /> <span className='text-main-black'>~ 3 000 ₴</span></div>
                                         <p className='code_down_small_text text-main-black'>в Украину, <span className='text-[#64748B]'>себе</span></p>
                                     </div>
 
@@ -54,7 +54,7 @@ const PanelSlide = () => {
                         <div className='code_slide_single_container'>
                             <div className='flex'>
                                 <div className='code_slide_icon_wrap'>
-                                    <img className='w-[19px]' src="/images/up-green.png" alt="icons" />
+                                    <img className='w-[19px]' src="/images/up-green.svg" alt="icons" />
                                 </div>
                                 <div className='w-full pl-[12px]'>
                                     <div className='flex justify-between'>
@@ -62,7 +62,7 @@ const PanelSlide = () => {
                                         <span className='code_color_box bg-[#F7ECFF] text-[#8F18ED] '>Переведите деньги</span>
                                     </div>
                                     <div>
-                                        <div className=' text-[#B8C0CC] code_large_text '>10 000 <span className='text-[18px]'>₽</span> <img className='inline-block' src="/images/right-big.png" alt="" /> <span className='text-main-black'>~ 3 000 ₴</span></div>
+                                        <div className=' text-[#B8C0CC] code_large_text '>10 000 <span className='text-[18px]'>₽</span> <img className='inline-block' src="/images/right-big.svg" alt="" /> <span className='text-main-black'>~ 3 000 ₴</span></div>
                                         <p className='code_down_small_text text-main-black'>в Украину, <span className='text-[#64748B] font-sans'>+380 999 999 99 99 (Сергей)</span></p>
                                     </div>
 
@@ -75,7 +75,7 @@ const PanelSlide = () => {
                         <div className='code_slide_single_container'>
                             <div className='flex'>
                                 <div className='code_slide_icon_wrap'>
-                                    <img className='w-[19px]' src="/images/down-green.png" alt="icons" />
+                                    <img className='w-[19px]' src="/images/down-green.svg" alt="icons" />
                                 </div>
                                 <div className='w-full pl-[12px]'>
                                     <div className='flex justify-between'>

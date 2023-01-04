@@ -18,7 +18,7 @@ const code = () => {
                         <button className='absolute right-[19px] top-[16%]'>
                             <Link href='/'>
 
-                                <img src="/images/close.png" alt="close" />
+                                <img src="/images/close.svg" alt="close" />
                             </Link>
                         </button>
                     </div>

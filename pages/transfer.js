@@ -87,7 +87,7 @@ const Transfer = () => {
                         <button className='hidden md:block absolute right-[19px] top-[16%]'>
                             <Link href='/'>
 
-                                <img src="/images/close.png" alt="close" />
+                                <img src="/images/close.svg" alt="close" />
                             </Link>
                         </button>
                     </div>
@@ -95,7 +95,7 @@ const Transfer = () => {
 
                         <div className='p-[16px] flex justify-between bg-[#FFFBEB] rounded-[8px]'>
                             <div className='flex gap-[10px] items-start md:items-center '>
-                                <img src="/images/clock-yellow.png" alt="clock" />
+                                <img src="/images/clock-yellow.svg" alt="clock" />
                                 <p>Переведите 3 000₽ по реквизитам агента в течении 29:57</p>
                             </div>
                             <div className='hidden md:flex gap-[8px]'>

@@ -15,7 +15,7 @@ const HomeBanner = () => {
                         <p className="text-sm font-bold font-Roboto hidden md:block mt-[60px] mb-2">
                             Excellent 4.8
                             <span className="font-normal"> out of 5 </span>
-                            <span><Image quality={100} className='inline-block max-w-[14px] rounded-[3px]' layout='raw' src='/images/shape.png' width={90} height={50} alt='star'></Image></span>
+                            <span><Image quality={100} className='inline-block max-w-[14px] rounded-[3px]' layout='raw' src='/images/shape.svg' width={90} height={50} alt='star'></Image></span>
                             Trustpilot
                         </p>
                     </div>
@@ -24,7 +24,7 @@ const HomeBanner = () => {
                         <p className="text-ls font-bold text-center font-Roboto md:hidden block mt-[40px] mb-2">
                             Excellent 4.8
                             <span className="font-normal  font-Roboto mr-[13px]"> out of 5</span>
-                            <span><Image className="inline-block max-w-[14px] w-[14px]" layout='raw' quality={100} src='/images/shape.png' width={80} height={80} alt='star'></Image></span>
+                            <span><Image className="inline-block max-w-[14px] w-[14px]" layout='raw' quality={100} src='/images/shape.svg' width={80} height={80} alt='star'></Image></span>
                             <span className="ml-[4px] font-bold">Trustpilot</span>
                         </p>
                     </div>

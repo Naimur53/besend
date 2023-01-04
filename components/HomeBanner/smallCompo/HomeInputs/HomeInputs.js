@@ -151,7 +151,7 @@ const HomeInputs = () => {
                         Итого
                     </p>
                     <div className="flex gap-[10px] items-center">
-                        <Image quality={100} layout='raw' src="/images/clock.png" width={100} height={100} className='w-[20px] max-w-[20px]' alt="clock" />
+                        <Image quality={100} layout='raw' src="/images/clock.svg" width={100} height={100} className='w-[20px] max-w-[20px]' alt="clock" />
                         <p className="text-[#64748B] text-[14px] md:text-ls">Цена обновится через 4:57</p>
                     </div>
                 </div>
@@ -197,7 +197,7 @@ const HomeInputs = () => {
                 <button type="submit" className="py-[20px] px-[32px] bg-[#8BD7C0] w-full rounded-[16px] mt-[12px]">
                     <div className="flex justify-center items-center gap-[12px]">
                         <p className="text-[#F3F5F6] text-normal font-semibold">Перевести</p>
-                        <Image quality={100} className="w-[15px] max-w-[15px]" src='/images/rightArrow.png' width={80} height={80} alt='arrow'></Image>
+                        <Image quality={100} className="w-[15px] max-w-[15px]" src='/images/rightArrow.svg' width={80} height={80} alt='arrow'></Image>
                     </div>
                 </button>
             </form>

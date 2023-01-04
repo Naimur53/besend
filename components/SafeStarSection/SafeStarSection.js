@@ -50,7 +50,7 @@ const SafeStarSection = () => {
         return <div className='bg-white  rounded-[16px]   py-[0px]  md:pl-[40px]   pl-[23px] px-[20px] md:p-[20px]'>
             <div className='flex md:items-center gap-[11px] md:gap-[24px]'>
                 <div className='mt-[20px] md:mt-0'>
-                    <Image quality={100} layout='raw' className='min-w-[21px] min-h-[26px] md:min-h-auto  max-w-[21px] md:min-w-[58px] h-auto' width={200} height={200} src='/images/safeCard.png' alt='safe star'></Image>
+                    <Image quality={100} layout='raw' className='min-w-[21px] min-h-[26px] md:min-h-auto  max-w-[21px] md:min-w-[58px] h-auto' width={200} height={200} src='/images/safecard.svg' alt='safe star'></Image>
                 </div>
                 <div>
                     <div className='lg:block hidden'>

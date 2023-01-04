@@ -23,13 +23,13 @@ const PanelTopBar = ({ activePath }) => {
                     </div>
                     <div className="ml-[40px] flex gap-[31px]">
                         <button className='w-[32px] md:w-auto relative'>
-                            <img src="/images/bell.png" alt="icon" />
+                            <img src="/images/bell.svg" alt="icon" />
                             <span className="inline-block md:hidden -top-1 absolute w-[6px] h-[6px] bg-[#DC2626] rounded-full">
 
                             </span>
                         </button>
                         <button className='md:block hidden'>
-                            <img src="/images/out.png" alt="icon " />
+                            <img src="/images/out.svg" alt="icon " />
                         </button>
                     </div>
 
@@ -52,7 +52,7 @@ const PanelTopBar = ({ activePath }) => {
 
                     <div href='#' className='bottom_nav_item relative  text-white'>
                         <div className='relative z-20 bottom_nav_item'>
-                            <img src="/images/updownwhite.png" className='w-[22px]' alt="icon" />
+                            <img src="/images/updownwhite.svg" className='w-[22px]' alt="icon" />
                             <h6 className='text-white'>Главная</h6>
                         </div>
                         <div className='absolute bg-[#36CFA1] w-full h-[88px] rounded-t-[16px]'>

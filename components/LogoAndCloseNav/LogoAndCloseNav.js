@@ -10,7 +10,7 @@ const LogoAndCloseNav = () => {
             </Link>
             <Link href='/'>
 
-                <img className='pointer' src="/images/close.png" alt="close" />
+                <img className='pointer' src="/images/close.svg" alt="close" />
             </Link>
 
         </div>

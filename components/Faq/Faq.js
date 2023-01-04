@@ -29,7 +29,7 @@ const Faq = () => {
                 </div>
                 <div className='md:flex justify-center mt-[42px] items-center'>
                     <p className='text-sm text-[#E7EAEE]  mr-[11px]'>Если у вас остались вопросы, </p>
-                    <a href='#' className='block text-sm md:inline-block text-[#36CFA1]'>задайте свой <Image width={12} height={12} alt='arrow' src="/images/greenarrow.png" /> </a>
+                    <a href='#' className='block text-sm md:inline-block text-[#36CFA1]'>задайте свой <Image width={12} height={12} alt='arrow' src="/images/greenArrow.svg" /> </a>
                 </div>
 
             </div>

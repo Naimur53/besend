@@ -30,15 +30,15 @@ const Footer = () => {
                         </div>
                         <div className='md:flex hidden gap-[20px] '>
                             <a href="#" className='inline-block'>
-                                <img quality={100} className='max-w-[36px]' layout='raw' src='/images/gray-redit.png' width={80} height={80} alt='icons'></img>
+                                <img quality={100} className='max-w-[36px]' layout='raw' src='/images/gray-redit.svg' width={80} height={80} alt='icons'></img>
                             </a>
                             <a href="#" className='inline-block'>
 
-                                <img quality={100} className='max-w-[36px]' layout='raw' src='/images/gray-face.png' width={80} height={80} alt='icons'></img>
+                                <img quality={100} className='max-w-[36px]' layout='raw' src='/images/gray-face.svg' width={80} height={80} alt='icons'></img>
                             </a>
                             <div className='flex gap-[6px] items-center'>
                                 <a href="#" className='inline-block'>
-                                    <img quality={100} className='max-w-[36px]' layout='raw' src='/images/gray-extrastar.png' width={80} height={80} alt='icons'></img>
+                                    <img quality={100} className='max-w-[36px]' layout='raw' src='/images/gray-extrastar.svg' width={80} height={80} alt='icons'></img>
                                 </a>
                                 <a href="#" className='inline-block'>
                                     <img quality={100} className='max-w-[102px]' layout='raw' src='/images/trustpilot.png' width={200} height={80} alt='icons'></img>

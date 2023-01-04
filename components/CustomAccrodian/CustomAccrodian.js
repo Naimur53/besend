@@ -16,7 +16,7 @@ const CustomAccrodian = ({ children, heading, defaultValue }) => {
             <div className='flex gap-[10px] cursor-pointer items-center' onClick={() => handleOpen(!open)}>
                 <h2 className='text-ls md:text-[18px] leading-[22px] text-[#30B68D] '>{heading}</h2>
 
-                <img className={!open ? "rotate-0" : 'rotate-180'} src="/images/down-small-green.png" alt="" />
+                <img className={!open ? "rotate-0" : 'rotate-180'} src="/images/down-small-green.svg" alt="" />
             </div>
             {
                 open ? <div className='pt-[19px]'>

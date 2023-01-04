@@ -47,9 +47,9 @@ const Chat = () => {
 
                     <input type="file" id="files" className='hidden' />
                     <div className='bg-white px-[12px] border border-[#E7EAEE] md:px-[16px] py-[13px] rounded-[16px] flex justify-between gap-[12px] items-center h-[70px]'>
-                        <label className='min-w-[44px] h-[44px] flex justify-center items-center' htmlFor='files'><img className='w-[28px]' src="/images/attach.png" alt="" /></label>
+                        <label className='min-w-[44px] h-[44px] flex justify-center items-center' htmlFor='files'><img className='w-[28px]' src="/images/attach.svg" alt="" /></label>
                         <input type="text" className='w-full tex-ls md:text-sm leading-[28px] focus-visible:border-0 focus-visible:outline-none' placeholder='Напишите сообщение..' name="" id="" />
-                        <label className='min-w-[44px] h-[44px] flex justify-center items-center ' htmlFor='files'><img className='w-[20px]' src="/images/send.png" alt="" /></label>
+                        <label className='min-w-[44px] h-[44px] flex justify-center items-center ' htmlFor='files'><img className='w-[20px]' src="/images/send.svg" alt="" /></label>
 
                     </div>
                 </form>
